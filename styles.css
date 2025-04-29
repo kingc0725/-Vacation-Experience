@@ -1,0 +1,48 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set background color for the whole page */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the section */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the list */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
